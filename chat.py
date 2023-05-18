@@ -8,7 +8,7 @@ engine = pyttsx3.init()
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[1].id)
 
-openai.api_key = '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'
+openai.api_key = 'YOUR_API_KEY'
 messages = [{"role": "system", "content":
 			"You are a intelligent assistant."}]
 
